@@ -1,0 +1,1 @@
+web: gunicorn pythonakademi.wsgi --log-file -

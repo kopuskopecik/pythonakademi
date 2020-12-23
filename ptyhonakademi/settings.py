@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'dtl)@cdvp0b=s5w0o9mjxlzu6+h0&^12&_+0cyjbz^c#8lbb33'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["pythonakademi.herokuapp.com", "127.0.0.1"]
 
 
 # Application definition
