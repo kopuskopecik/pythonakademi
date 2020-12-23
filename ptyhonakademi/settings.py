@@ -26,7 +26,7 @@ SECRET_KEY = 'dtl)@cdvp0b=s5w0o9mjxlzu6+h0&^12&_+0cyjbz^c#8lbb33'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["pythonakademi.herokuapp.com", "127.0.0.1"]
+ALLOWED_HOSTS = ["ec2-107-20-34-135.compute-1.amazonaws.com"]
 
 
 # Application definition
@@ -118,10 +118,6 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
-STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+STATIC_ROOT = os.path.join(BASE_DIR, "static/")
 
 STATIC_URL = '/static/'
-
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static")
-]
