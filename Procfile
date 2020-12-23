@@ -1,1 +1,1 @@
-web: gunicorn pythonakademi.wsgi --log-file -
+web: gunicorn ptyhonakademi.wsgi --log-file -
